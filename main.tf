@@ -2,7 +2,7 @@
 provider "aws" {
     region ="us-east-1"  
 }
-Creating RDS instance
+#Creating RDS instance
 resource "aws_db_instance" "RDS_DB" {
   identifier           = "database-1"
   engine               = "mysql"
